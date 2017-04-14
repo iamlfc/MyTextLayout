@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lfc.mytextlayout.view.SlidingLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:background_view="@layout/view_bg"
+    app:sliding_mode="top"
+    app:top_max="195dp"
+    tools:context="com.lfc.mytextlayout.TestRecyclerView">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+    </android.support.v7.widget.RecyclerView>
+</com.lfc.mytextlayout.view.SlidingLayout>
